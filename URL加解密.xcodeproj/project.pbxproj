@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CAA0058446E728E247D933F /* libPods-URL加解密.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B64F94FA520FD1C54B4F6532 /* libPods-URL加解密.a */; };
+		E4ADC2C51D261E490062564A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4ADC2C41D261E490062564A /* main.m */; };
+		E4ADC2C81D261E490062564A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4ADC2C71D261E490062564A /* AppDelegate.m */; };
+		E4ADC2CB1D261E490062564A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4ADC2CA1D261E490062564A /* ViewController.m */; };
+		E4ADC2CE1D261E490062564A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4ADC2CC1D261E490062564A /* Main.storyboard */; };
+		E4ADC2D11D261E490062564A /* URL___.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E4ADC2CF1D261E490062564A /* URL___.xcdatamodeld */; };
+		E4ADC2D31D261E490062564A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4ADC2D21D261E490062564A /* Assets.xcassets */; };
+		E4ADC2D61D261E490062564A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4ADC2D41D261E490062564A /* LaunchScreen.storyboard */; };
+		E4ADC2DF1D261F830062564A /* PublicMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = E4ADC2DE1D261F830062564A /* PublicMethod.m */; };
+		E4ADC2E21D261FB20062564A /* NSData+Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = E4ADC2E11D261FB20062564A /* NSData+Encryption.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18951508CCBE3719139C2B09 /* Pods-URL加解密.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URL加解密.release.xcconfig"; path = "Pods/Target Support Files/Pods-URL加解密/Pods-URL加解密.release.xcconfig"; sourceTree = "<group>"; };
+		B64F94FA520FD1C54B4F6532 /* libPods-URL加解密.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-URL加解密.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4ADC2C01D261E490062564A /* URL加解密.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "URL加解密.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4ADC2C41D261E490062564A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E4ADC2C61D261E490062564A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E4ADC2C71D261E490062564A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E4ADC2C91D261E490062564A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E4ADC2CA1D261E490062564A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E4ADC2CD1D261E490062564A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4ADC2D01D261E490062564A /* URL___.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "URL___.xcdatamodel"; sourceTree = "<group>"; };
+		E4ADC2D21D261E490062564A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4ADC2D51D261E490062564A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E4ADC2D71D261E490062564A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4ADC2DD1D261F830062564A /* PublicMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicMethod.h; sourceTree = "<group>"; };
+		E4ADC2DE1D261F830062564A /* PublicMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublicMethod.m; sourceTree = "<group>"; };
+		E4ADC2E01D261FB20062564A /* NSData+Encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Encryption.h"; sourceTree = "<group>"; };
+		E4ADC2E11D261FB20062564A /* NSData+Encryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Encryption.m"; sourceTree = "<group>"; };
+		FDF962BB869FBCDF4B9B00EE /* Pods-URL加解密.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URL加解密.debug.xcconfig"; path = "Pods/Target Support Files/Pods-URL加解密/Pods-URL加解密.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4ADC2BD1D261E490062564A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CAA0058446E728E247D933F /* libPods-URL加解密.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5041D3DE0F75573E97D5350E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B64F94FA520FD1C54B4F6532 /* libPods-URL加解密.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B82282B7670FEE595213562 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDF962BB869FBCDF4B9B00EE /* Pods-URL加解密.debug.xcconfig */,
+				18951508CCBE3719139C2B09 /* Pods-URL加解密.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E4ADC2B71D261E490062564A = {
+			isa = PBXGroup;
+			children = (
+				E4ADC2C21D261E490062564A /* URL加解密 */,
+				E4ADC2C11D261E490062564A /* Products */,
+				9B82282B7670FEE595213562 /* Pods */,
+				5041D3DE0F75573E97D5350E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E4ADC2C11D261E490062564A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4ADC2C01D261E490062564A /* URL加解密.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4ADC2C21D261E490062564A /* URL加解密 */ = {
+			isa = PBXGroup;
+			children = (
+				E4ADC2C61D261E490062564A /* AppDelegate.h */,
+				E4ADC2C71D261E490062564A /* AppDelegate.m */,
+				E4ADC2C91D261E490062564A /* ViewController.h */,
+				E4ADC2CA1D261E490062564A /* ViewController.m */,
+				E4ADC2DD1D261F830062564A /* PublicMethod.h */,
+				E4ADC2DE1D261F830062564A /* PublicMethod.m */,
+				E4ADC2E01D261FB20062564A /* NSData+Encryption.h */,
+				E4ADC2E11D261FB20062564A /* NSData+Encryption.m */,
+				E4ADC2C31D261E490062564A /* Supporting Files */,
+			);
+			path = "URL加解密";
+			sourceTree = "<group>";
+		};
+		E4ADC2C31D261E490062564A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4ADC2CC1D261E490062564A /* Main.storyboard */,
+				E4ADC2D21D261E490062564A /* Assets.xcassets */,
+				E4ADC2D41D261E490062564A /* LaunchScreen.storyboard */,
+				E4ADC2D71D261E490062564A /* Info.plist */,
+				E4ADC2CF1D261E490062564A /* URL___.xcdatamodeld */,
+				E4ADC2C41D261E490062564A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4ADC2BF1D261E490062564A /* URL加解密 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4ADC2DA1D261E490062564A /* Build configuration list for PBXNativeTarget "URL加解密" */;
+			buildPhases = (
+				53B28884A5DEB138198B1FA1 /* [CP] Check Pods Manifest.lock */,
+				E4ADC2BC1D261E490062564A /* Sources */,
+				E4ADC2BD1D261E490062564A /* Frameworks */,
+				E4ADC2BE1D261E490062564A /* Resources */,
+				A545B640495BE0C366393F2D /* [CP] Embed Pods Frameworks */,
+				8205EA40D90330C256F77318 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "URL加解密";
+			productName = "URL加解密";
+			productReference = E4ADC2C01D261E490062564A /* URL加解密.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4ADC2B81D261E490062564A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = slq;
+				TargetAttributes = {
+					E4ADC2BF1D261E490062564A = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = E4ADC2BB1D261E490062564A /* Build configuration list for PBXProject "URL加解密" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4ADC2B71D261E490062564A;
+			productRefGroup = E4ADC2C11D261E490062564A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4ADC2BF1D261E490062564A /* URL加解密 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4ADC2BE1D261E490062564A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4ADC2D61D261E490062564A /* LaunchScreen.storyboard in Resources */,
+				E4ADC2D31D261E490062564A /* Assets.xcassets in Resources */,
+				E4ADC2CE1D261E490062564A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		53B28884A5DEB138198B1FA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8205EA40D90330C256F77318 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-URL加解密/Pods-URL加解密-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A545B640495BE0C366393F2D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-URL加解密/Pods-URL加解密-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4ADC2BC1D261E490062564A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4ADC2CB1D261E490062564A /* ViewController.m in Sources */,
+				E4ADC2E21D261FB20062564A /* NSData+Encryption.m in Sources */,
+				E4ADC2C81D261E490062564A /* AppDelegate.m in Sources */,
+				E4ADC2DF1D261F830062564A /* PublicMethod.m in Sources */,
+				E4ADC2C51D261E490062564A /* main.m in Sources */,
+				E4ADC2D11D261E490062564A /* URL___.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E4ADC2CC1D261E490062564A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4ADC2CD1D261E490062564A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E4ADC2D41D261E490062564A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4ADC2D51D261E490062564A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4ADC2D81D261E490062564A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E4ADC2D91D261E490062564A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4ADC2DB1D261E490062564A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDF962BB869FBCDF4B9B00EE /* Pods-URL加解密.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "URL加解密/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.gihub.song.URL---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E4ADC2DC1D261E490062564A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18951508CCBE3719139C2B09 /* Pods-URL加解密.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "URL加解密/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.gihub.song.URL---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4ADC2BB1D261E490062564A /* Build configuration list for PBXProject "URL加解密" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4ADC2D81D261E490062564A /* Debug */,
+				E4ADC2D91D261E490062564A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4ADC2DA1D261E490062564A /* Build configuration list for PBXNativeTarget "URL加解密" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4ADC2DB1D261E490062564A /* Debug */,
+				E4ADC2DC1D261E490062564A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E4ADC2CF1D261E490062564A /* URL___.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E4ADC2D01D261E490062564A /* URL___.xcdatamodel */,
+			);
+			currentVersion = E4ADC2D01D261E490062564A /* URL___.xcdatamodel */;
+			path = "URL___.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E4ADC2B81D261E490062564A /* Project object */;
+}
